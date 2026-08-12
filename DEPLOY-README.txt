@@ -1,11 +1,9 @@
 IMNNT MUSIC WEBSITE — LAUNCH CHECKLIST
 
 1) FORM FIRST
-- Create a Formspree form.
-- Set booking@imnntmusic.com as the notification email.
-- Copy the form ID from your endpoint (example: https://formspree.io/f/abcdwxyz -> abcdwxyz).
-- Open index.html and replace YOUR_FORM_ID with that ID.
-- Submit one test booking and confirm it reaches booking@imnntmusic.com.
+- Booking form is already connected to Formspree: https://formspree.io/f/meajkabn
+- Confirm the Formspree form is active and that notifications go to booking@imnntmusic.com.
+- After deployment, submit one test booking and confirm it reaches the inbox.
 
 2) GITHUB PAGES
 - Create a GitHub repository, e.g. imnntmusic-site.
