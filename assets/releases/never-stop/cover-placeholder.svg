@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111511"/><stop offset="1" stop-color="#040504"/></linearGradient><pattern id="p" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M70 0H0V70" fill="none" stroke="#c7ff32" stroke-opacity=".055"/></pattern></defs>
+<rect width="1200" height="1200" fill="url(#g)"/><rect width="1200" height="1200" fill="url(#p)"/>
+<path d="M110 286H1090M110 914H1090" stroke="#c7ff32" stroke-opacity=".25"/>
+<text x="110" y="185" fill="#c7ff32" font-family="monospace" font-size="24" letter-spacing="9">IMNNT MUSIC / COVER ART PLACEHOLDER</text>
+<text x="110" y="586" fill="#f3f5f1" font-family="Arial Black,Arial" font-size="165" font-weight="900" letter-spacing="-7">NEVER</text>
+<text x="110" y="738" fill="#f3f5f1" font-family="Arial Black,Arial" font-size="165" font-weight="900" letter-spacing="-7">STOP</text>
+<text x="110" y="1010" fill="#808980" font-family="monospace" font-size="26" letter-spacing="10">REPLACE WITH FINAL ARTWORK</text>
+</svg>
