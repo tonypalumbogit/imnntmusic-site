@@ -121,26 +121,30 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
 
 
 
+
 /* =========================================================
    NEVER STOP / 001 — FINAL HORIZONTAL MERCH LAYOUT
    ========================================================= */
 .shop-preview-final{
   background:
-    linear-gradient(180deg,rgba(3,8,10,.35),rgba(2,5,6,.98)),
-    radial-gradient(circle at 50% 0%,rgba(0,231,242,.035),transparent 35%),
+    radial-gradient(circle at 48% -10%,rgba(0,231,242,.04),transparent 34%),
     #030506;
   border-block:1px solid var(--border);
+  overflow:hidden;
+}
+.shop-final-wrap{
+  max-width:1720px;
 }
 .shop-final-head{
   display:grid;
-  grid-template-columns:1.1fr .9fr;
-  gap:48px;
+  grid-template-columns:1.05fr .95fr;
+  gap:44px;
   align-items:end;
-  margin-bottom:30px;
+  margin-bottom:28px;
 }
 .shop-final-title h2{
-  margin:7px 0 8px;
-  font-size:clamp(42px,5.6vw,78px);
+  margin:5px 0 8px;
+  font-size:clamp(42px,5vw,76px);
   line-height:.9;
 }
 .shop-final-title p{
@@ -152,52 +156,59 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
 }
 .shop-final-intro{
   border-left:1px solid var(--border-bright);
-  padding-left:28px;
+  padding-left:26px;
+  max-width:520px;
+  justify-self:end;
 }
 .shop-final-intro p{
-  max-width:46ch;
-  margin:0 0 15px;
+  margin:0 0 14px;
   color:var(--dim);
-  line-height:1.7;
+  line-height:1.65;
 }
 .shop-text-link{
+  display:inline-block;
   font-family:var(--mono);
   font-size:11px;
-  letter-spacing:.14em;
+  letter-spacing:.13em;
   color:var(--cyan-bright);
-  border-bottom:1px solid var(--cyan);
   padding-bottom:4px;
+  border-bottom:1px solid var(--cyan);
 }
 .shop-final-grid{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
   gap:12px;
+  align-items:stretch;
 }
 .shop-final-card{
+  display:flex;
+  flex-direction:column;
   min-width:0;
   border:1px solid var(--border-bright);
-  background:linear-gradient(180deg,#071012 0%,#050809 100%);
+  background:linear-gradient(180deg,#061012,#040708);
   overflow:hidden;
 }
 .shop-final-image{
   position:relative;
-  aspect-ratio:1/1.05;
+  height:360px;
   background:
-    linear-gradient(rgba(10,22,26,.25) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(10,22,26,.25) 1px,transparent 1px),
+    linear-gradient(rgba(14,33,38,.22) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(14,33,38,.22) 1px,transparent 1px),
     #030708;
   background-size:32px 32px;
-  border-bottom:1px solid var(--border-bright);
   overflow:hidden;
+  border-bottom:1px solid var(--border-bright);
 }
 .shop-final-image:after{
   content:"";
   position:absolute;
-  left:0;right:0;top:42px;
+  left:0;
+  right:0;
+  top:45px;
   height:1px;
-  background:linear-gradient(90deg,var(--cyan),transparent);
-  opacity:.55;
-  transform:rotate(-4deg);
+  background:linear-gradient(90deg,var(--cyan),transparent 78%);
+  opacity:.58;
+  transform:rotate(-3deg);
   transform-origin:left center;
 }
 .shop-final-image img{
@@ -205,14 +216,14 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
   width:100%;
   height:100%;
   object-fit:contain;
-  padding:42px 18px 18px;
+  padding:44px 24px 18px;
   background:transparent;
 }
 .shop-final-code{
   position:absolute;
+  top:15px;
   left:16px;
-  top:14px;
-  z-index:2;
+  z-index:3;
   font-family:var(--mono);
   font-size:8px;
   letter-spacing:.14em;
@@ -220,47 +231,49 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
 }
 .shop-final-number{
   position:absolute;
-  right:14px;
   top:12px;
-  z-index:2;
-  min-width:34px;
-  height:34px;
+  right:12px;
+  z-index:3;
+  width:38px;
+  height:38px;
   display:grid;
   place-items:center;
   border:1px solid var(--border-bright);
+  background:rgba(3,7,8,.82);
+  color:var(--cyan-bright);
   font-family:var(--mono);
   font-size:11px;
   letter-spacing:.08em;
-  color:var(--cyan-bright);
-  background:rgba(3,7,8,.72);
 }
 .shop-final-copy{
   display:flex;
   flex-direction:column;
-  min-height:220px;
+  flex:1;
   padding:18px 18px 16px;
+  min-height:220px;
 }
 .shop-final-copy h3{
   margin:0 0 14px;
-  font-size:clamp(16px,1.45vw,23px);
-  line-height:1.12;
+  font-size:clamp(17px,1.35vw,23px);
+  line-height:1.14;
   text-transform:none;
 }
 .shop-final-copy p{
   margin:0;
   color:var(--dim);
-  line-height:1.6;
+  line-height:1.55;
   font-size:13px;
 }
 .shop-final-copy a{
   margin-top:auto;
   padding-top:18px;
-  font-family:var(--mono);
-  font-size:9px;
-  letter-spacing:.12em;
+  width:max-content;
+  max-width:100%;
   color:var(--cyan-bright);
   border-bottom:1px solid var(--cyan);
-  width:max-content;
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.11em;
 }
 .shop-final-cta-row{
   display:grid;
@@ -285,24 +298,27 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
   background:var(--cyan);
   color:#020405;
 }
-@media(max-width:1100px){
+@media(max-width:1180px){
   .shop-final-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .shop-final-image{height:330px}
 }
 @media(max-width:760px){
-  .shop-final-head{grid-template-columns:1fr;gap:22px}
-  .shop-final-intro{border-left:0;border-top:1px solid var(--border);padding:20px 0 0}
+  .shop-final-head{grid-template-columns:1fr;gap:20px}
+  .shop-final-intro{justify-self:start;border-left:0;border-top:1px solid var(--border);padding:18px 0 0}
 }
 @media(max-width:560px){
-  .shop-final-grid{grid-template-columns:1fr 1fr;gap:8px}
-  .shop-final-copy{min-height:190px;padding:14px}
+  .shop-final-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .shop-final-image{height:220px}
+  .shop-final-image img{padding:38px 10px 10px}
+  .shop-final-copy{min-height:190px;padding:13px}
   .shop-final-copy h3{font-size:15px}
   .shop-final-copy p{font-size:11px}
-  .shop-final-image img{padding:38px 10px 10px}
   .shop-final-cta-row{grid-template-columns:1fr}
   .shop-final-cta-row span{display:none}
 }
 @media(max-width:390px){
   .shop-final-grid{grid-template-columns:1fr}
+  .shop-final-image{height:300px}
 }
 
 @media print{

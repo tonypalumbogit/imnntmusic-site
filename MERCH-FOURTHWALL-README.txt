@@ -1,30 +1,16 @@
-IMNNT FOURTHWALL MERCH INTEGRATION — V11
+IMNNT FOURTHWALL MERCH INTEGRATION — V13
 =======================================
 
 Store:
 https://imnntmusic-shop.fourthwall.com
 
-CHANGE IN THIS VERSION
-----------------------
-The existing four-card homepage apparel section is retained.
+This version fixes the homepage apparel section so the actual HTML/CSS matches
+the approved horizontal four-card concept:
 
-The generated shirt drawings have been removed from the product-image boxes.
-Each card now uses the ACTUAL merchandise photo supplied from the Fourthwall
-store screenshot:
-
-1. Arctic White Tee
-2. Essential Tee
-3. Electric Ice Zip Hoodie
-4. Monochrome Crewneck
-
-The actual product photos are located at:
-assets/merch/arctic-white-tee.png
-assets/merch/essential-tee.png
-assets/merch/electric-ice-zip-hoodie.png
-assets/merch/monochrome-crewneck.png
-
-All SHOP / VIEW PRODUCT buttons still route to the main Fourthwall storefront
-until individual product URLs are provided.
-
-Existing music, EPK, booking, Never Stop release content, navigation and footer
-remain intact. Nothing has been added below the footer.
+- Four corresponding merchandise images side-by-side on desktop.
+- Each card includes product name, short description and SHOP / VIEW PRODUCT.
+- Top collection link and bottom SHOP THE COLLECTION link both go to Fourthwall.
+- No placeholder shirt drawings.
+- No vertical one-product-per-row layout on desktop.
+- Existing music, EPK, booking, Never Stop page and footer remain intact.
+- Nothing is added below the footer.
