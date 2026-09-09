@@ -18,29 +18,29 @@ window.IMNNT_MERCH = {
     {
       name: "IMNNT NEVER STOP // Arctic White Tee",
       price: "PRICE TBA",
-      image: "assets/merch/arctic-white-tee-placeholder.svg",
-      releaseImage: "../assets/merch/arctic-white-tee-placeholder.svg",
+      image: "assets/merch/arctic-white-tee.png",
+      releaseImage: "../assets/merch/arctic-white-tee.png",
       url: "https://imnntmusic-shop.fourthwall.com"
     },
     {
       name: "IMNNT NEVER STOP // Essential Tee",
       price: "PRICE TBA",
-      image: "assets/merch/essential-tee-placeholder.svg",
-      releaseImage: "../assets/merch/essential-tee-placeholder.svg",
+      image: "assets/merch/essential-tee.png",
+      releaseImage: "../assets/merch/essential-tee.png",
       url: "https://imnntmusic-shop.fourthwall.com"
     },
     {
       name: "IMNNT NEVER STOP // Electric Ice Zip Hoodie",
       price: "PRICE TBA",
-      image: "assets/merch/electric-ice-hoodie-placeholder.svg",
-      releaseImage: "../assets/merch/electric-ice-hoodie-placeholder.svg",
+      image: "assets/merch/electric-ice-zip-hoodie.png",
+      releaseImage: "../assets/merch/electric-ice-zip-hoodie.png",
       url: "https://imnntmusic-shop.fourthwall.com"
     },
     {
       name: "IMNNT NEVER STOP // Monochrome Crewneck",
       price: "PRICE TBA",
-      image: "assets/merch/monochrome-crewneck-placeholder.svg",
-      releaseImage: "../assets/merch/monochrome-crewneck-placeholder.svg",
+      image: "assets/merch/monochrome-crewneck.png",
+      releaseImage: "../assets/merch/monochrome-crewneck.png",
       url: "https://imnntmusic-shop.fourthwall.com"
     }
   ]
