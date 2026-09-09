@@ -109,29 +109,44 @@
 </section>
 
 
-<section class="shop-preview" id="shop" aria-labelledby="shop-title">
+
+
+<section class="shop-preview shop-preview-compact" id="shop" aria-labelledby="shop-title">
   <div class="wrap">
-    <div class="shop-preview-head">
+    <div class="shop-compact-head">
       <div>
         <div class="eyebrow">IMNNT MERCHANDISE / DROP 001</div>
         <div class="shop-code">NEVER STOP / 001</div>
-        <h2 id="shop-title">APPAREL<br>COLLECTION</h2>
-      </div>
-      <div class="shop-manifesto">
+        <h2 id="shop-title">APPAREL COLLECTION</h2>
         <p>SOUND. MOVEMENT. NO LIMITS.</p>
-        <span>A release-linked apparel capsule built around black, white, electric ice and industrial IMNNT graphics.</span>
-        <a class="btn btn-shop js-store-link" href="https://imnntmusic-shop.fourthwall.com" target="_blank" rel="noopener">SHOP THE COLLECTION ↗</a>
       </div>
+      <a class="btn btn-shop" href="https://imnntmusic-shop.fourthwall.com" target="_blank" rel="noopener">SHOP THE COLLECTION ↗</a>
     </div>
 
-    <div class="site-merch-grid" id="homepage-merch-grid">
-      <!-- Product cards render from assets/merch.config.js -->
-    </div>
+    <div class="shop-artwork-row" aria-label="Never Stop apparel artwork preview">
+      <article class="shop-artwork-card">
+        <div class="shop-art-pair">
+          <img src="assets/merch/cyan-front.jpg" alt="IMNNT cyan apparel front artwork" loading="lazy">
+          <img src="assets/merch/cyan-back.jpg" alt="IMNNT Never Stop cyan apparel back artwork" loading="lazy">
+        </div>
+        <div class="shop-art-label"><span>01</span><strong>ELECTRIC CYAN / ICE</strong></div>
+      </article>
 
-    <div class="shop-note">
-      <span>NEVER STOP.</span>
-      <span>IMNNT / 001</span>
-      <span>CHECKOUT + FULFILLMENT BY FOURTHWALL</span>
+      <article class="shop-artwork-card">
+        <div class="shop-art-pair">
+          <img src="assets/merch/yellow-front.jpg" alt="IMNNT radioactive yellow apparel front artwork" loading="lazy">
+          <img src="assets/merch/yellow-back.jpg" alt="IMNNT Never Stop radioactive yellow apparel back artwork" loading="lazy">
+        </div>
+        <div class="shop-art-label"><span>02</span><strong>RADIOACTIVE YELLOW</strong></div>
+      </article>
+
+      <article class="shop-artwork-card">
+        <div class="shop-art-pair">
+          <img src="assets/merch/white-front.jpg" alt="IMNNT monochrome apparel front artwork" loading="lazy">
+          <img src="assets/merch/white-back.jpg" alt="IMNNT Never Stop monochrome apparel back artwork" loading="lazy">
+        </div>
+        <div class="shop-art-label"><span>03</span><strong>MONOCHROME WHITE</strong></div>
+      </article>
     </div>
   </div>
 </section>
@@ -178,8 +193,6 @@
 
 <footer><div class="wrap footer-grid"><div class="copyright">© 2026 IMNNT · Worldwide bookings</div><div class="socials"><a href="https://www.mixcloud.com/imnntmusic/" target="_blank" rel="noopener">Mixcloud</a><a href="https://linktr.ee/IMNNT" target="_blank" rel="noopener">Linktree / All Links</a><a href="epk.html">EPK</a><a href="mailto:booking@imnntmusic.com">Booking Email</a></div></div></footer>
 
-<script src="assets/merch.config.js"></script>
-<script src="assets/merch.js" defer></script>
 
 <script>
 const form = document.getElementById('booking-form');

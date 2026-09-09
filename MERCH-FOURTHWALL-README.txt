@@ -1,53 +1,24 @@
-IMNNT FOURTHWALL MERCH INTEGRATION
-=================================
+IMNNT FOURTHWALL MERCH INTEGRATION — V10
+=======================================
 
-FOURTHWALL STORE
+Store:
 https://imnntmusic-shop.fourthwall.com
 
-WHAT THIS VERSION ADDS
-----------------------
-- SHOP in the existing IMNNT primary navigation.
-- NEVER STOP / 001 apparel preview on the existing homepage.
-- Four premium placeholder product cards.
-- SHOP THE COLLECTION links to Fourthwall.
-- WEAR THE RELEASE callout on /never-stop/.
-- SHOP THE DROP links to Fourthwall.
-- Existing music, EPK, booking, Never Stop content and footer are retained.
-- Nothing new was added below the existing footer.
+Homepage apparel preview:
+- No empty product placeholders.
+- Uses the actual artwork supplied in the three Fourthwall artwork ZIPs.
+- Shows TWO images per apparel artwork set: front + back.
+- Desktop layout is three cards laterally across the page.
+- The website is still not acting as the ecommerce store.
+- SHOP and SHOP THE COLLECTION go to Fourthwall.
 
-WHERE TO UPDATE PRICES / PRODUCT LINKS
---------------------------------------
-assets/merch.config.js
+Artwork assets:
+assets/merch/cyan-front.jpg
+assets/merch/cyan-back.jpg
+assets/merch/yellow-front.jpg
+assets/merch/yellow-back.jpg
+assets/merch/white-front.jpg
+assets/merch/white-back.jpg
 
-Each product has:
-name:
-price:
-image:
-releaseImage:
-url:
-
-When individual Fourthwall product URLs are available, replace the current main
-storefront URL in each product's url field.
-
-WHERE TO ADD REAL PRODUCT IMAGES
---------------------------------
-assets/merch/
-
-Replace the placeholder files or add the real product images and update the image
-paths in assets/merch.config.js and never-stop/release.config.js.
-
-FUTURE CUSTOM DOMAIN
---------------------
-If you configure:
-https://shop.imnntmusic.com
-
-with Fourthwall, replace the storeUrl in:
-assets/merch.config.js
-
-and update the matching URLs in:
-never-stop/release.config.js
-
-FOURTHWALL ROLE
----------------
-Fourthwall handles ecommerce checkout, payment, fulfillment and orders.
-imnntmusic.com remains the main IMNNT artist / brand website.
+Existing music, EPK, booking, Never Stop page and footer are retained.
+Nothing new is placed below the footer.
