@@ -115,15 +115,194 @@ footer{padding:52px 0 36px;background:#030506;border-top:1px solid rgba(35,50,57
 .epk-hero{padding:150px 0 72px;background:radial-gradient(circle at 70% 30%,rgba(0,231,242,.09),transparent 32%),#030506;border-bottom:1px solid var(--border)}.epk-hero h1{font-size:clamp(58px,11vw,120px);line-height:.9;letter-spacing:-.035em}.epk-logo{width:min(76vw,500px);aspect-ratio:2.55/1;overflow:hidden;margin-top:8px}.epk-logo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;mix-blend-mode:screen;filter:drop-shadow(0 0 16px rgba(0,231,242,.22))}.epk-hero .sub{font-family:var(--mono);color:var(--cyan);letter-spacing:.16em;text-transform:uppercase;margin-top:18px;font-size:12px}.epk-summary{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:start}.epk-facts{border-top:1px solid var(--border)}.epk-fact{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--border)}.epk-fact .k{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--dim)}.epk-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.epk-section{border-top:1px solid var(--border)}
 
 @media (max-width:900px){.mix-grid{grid-template-columns:1fr 1fr}.about-grid,.highlight-grid,.availability-grid,.booking-grid,.epk-summary{grid-template-columns:1fr;gap:42px}.stats{border-left:0;border-top:1px solid var(--border);padding-left:0;padding-top:22px}.epk-strip .wrap{align-items:flex-start;flex-direction:column}.section-head{align-items:flex-start;flex-direction:column}.highlight-copy{order:-1}}
-@media (max-width:680px){header{padding:14px 16px}.logo{width:98px}.logo img{width:98px;height:34px}nav ul{gap:12px}nav a{font-size:11px;letter-spacing:.1em}nav li:nth-child(2),nav li:nth-child(3),nav li:nth-child(4){display:none}.wrap{padding:0 20px}section{padding:78px 0}.hero{padding:118px 0 64px}.hero:before{width:105vw;left:72%;opacity:.48}.hero-logo{max-width:82vw}.hero-loc{font-size:10.5px;line-height:1.75;letter-spacing:.14em}.hero-tag{font-size:14px;line-height:1.75;margin-top:26px}.eyebrow{font-size:12px;letter-spacing:.17em}.lead{font-size:17px;line-height:1.7}.about p,.section-head p,.highlight-copy p,.avail-card p,.epk-strip p{font-size:16px;line-height:1.75}.tag{font-size:11px}.mix-grid{grid-template-columns:1fr}.mix-card-body{padding:22px}.mix-no,.mix-meta,.text-link,.kicker,.stat-label,.proof-note,.route-status,.form-note,.form-status,.info-row .k,.socials a,.copyright,.epk-fact .k{font-size:12px;line-height:1.55}.chart-badge{font-size:11px;line-height:1.45}.mix-card h3{font-size:23px;line-height:1.2}.field-row{grid-template-columns:1fr}label{font-size:12px;margin-bottom:9px}input,select,textarea{font-size:16px;padding:16px 15px;min-height:52px}.submit-btn,.btn{font-size:12px;padding:16px 22px}.route{grid-template-columns:1fr;gap:4px}.info-row{flex-direction:column;gap:4px;font-size:16px}.direct-contact a{font-size:14px}.epk-fact{grid-template-columns:1fr;gap:3px;font-size:16px}.socials{gap:14px}.proof-frame{padding:7px}}
+@media (max-width:680px){header{padding:14px 16px}.logo{width:98px}.logo img{width:98px;height:34px}nav ul{gap:12px}nav a{font-size:11px;letter-spacing:.1em}nav li:nth-child(3),nav li:nth-child(4),nav li:nth-child(5){display:none}.wrap{padding:0 20px}section{padding:78px 0}.hero{padding:118px 0 64px}.hero:before{width:105vw;left:72%;opacity:.48}.hero-logo{max-width:82vw}.hero-loc{font-size:10.5px;line-height:1.75;letter-spacing:.14em}.hero-tag{font-size:14px;line-height:1.75;margin-top:26px}.eyebrow{font-size:12px;letter-spacing:.17em}.lead{font-size:17px;line-height:1.7}.about p,.section-head p,.highlight-copy p,.avail-card p,.epk-strip p{font-size:16px;line-height:1.75}.tag{font-size:11px}.mix-grid{grid-template-columns:1fr}.mix-card-body{padding:22px}.mix-no,.mix-meta,.text-link,.kicker,.stat-label,.proof-note,.route-status,.form-note,.form-status,.info-row .k,.socials a,.copyright,.epk-fact .k{font-size:12px;line-height:1.55}.chart-badge{font-size:11px;line-height:1.45}.mix-card h3{font-size:23px;line-height:1.2}.field-row{grid-template-columns:1fr}label{font-size:12px;margin-bottom:9px}input,select,textarea{font-size:16px;padding:16px 15px;min-height:52px}.submit-btn,.btn{font-size:12px;padding:16px 22px}.route{grid-template-columns:1fr;gap:4px}.info-row{flex-direction:column;gap:4px;font-size:16px}.direct-contact a{font-size:14px}.epk-fact{grid-template-columns:1fr;gap:3px;font-size:16px}.socials{gap:14px}.proof-frame{padding:7px}}
 @media (max-width:680px){.eq{height:38px;margin-top:46px;padding:0 8px;gap:2px}.eq span{min-width:1px;max-width:3px}.encore-verified{gap:13px}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* =========================================================
+   NEVER STOP / 001 — IMNNT MERCHANDISE
+   ========================================================= */
+.shop-preview{
+  position:relative;
+  background:
+    linear-gradient(115deg,rgba(0,231,242,.035),transparent 30%),
+    radial-gradient(circle at 88% 15%,rgba(200,255,0,.045),transparent 24%),
+    #050809;
+  border-block:1px solid var(--border);
+  overflow:hidden;
+}
+.shop-preview:before{
+  content:"NS/001";
+  position:absolute;
+  right:-18px;
+  top:34px;
+  font-family:var(--display);
+  font-size:clamp(90px,17vw,230px);
+  font-weight:700;
+  letter-spacing:-.07em;
+  line-height:.8;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(108,248,255,.055);
+  pointer-events:none;
+}
+.shop-preview-head{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:68px;
+  align-items:end;
+  margin-bottom:42px;
+}
+.shop-code{
+  font-family:var(--mono);
+  color:var(--cyan-bright);
+  font-size:12px;
+  letter-spacing:.2em;
+  margin:8px 0 9px;
+}
+.shop-preview h2{margin-bottom:0}
+.shop-manifesto{border-left:1px solid var(--border);padding-left:30px}
+.shop-manifesto p{
+  font-family:var(--display);
+  font-size:clamp(22px,3vw,36px);
+  font-weight:700;
+  letter-spacing:.03em;
+  color:var(--text);
+}
+.shop-manifesto span{
+  display:block;
+  max-width:46ch;
+  margin:12px 0 23px;
+  color:var(--dim);
+  line-height:1.7;
+}
+.btn-shop{
+  background:transparent;
+  border:1px solid var(--cyan);
+  color:var(--cyan-bright);
+}
+.btn-shop:hover{
+  color:#020405;
+  background:var(--cyan);
+  box-shadow:0 0 28px rgba(0,231,242,.18);
+}
+.site-merch-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.site-merch-card{
+  border:1px solid var(--border);
+  background:linear-gradient(160deg,#0d1316,#070a0b 68%);
+  min-width:0;
+  transition:transform .22s,border-color .22s;
+}
+.site-merch-card:hover{
+  transform:translateY(-3px);
+  border-color:var(--border-bright);
+}
+.site-merch-art{
+  position:relative;
+  display:block;
+  aspect-ratio:4/5;
+  overflow:hidden;
+  background:#050708;
+  border-bottom:1px solid var(--border);
+}
+.site-merch-art img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .4s ease,filter .4s ease;
+}
+.site-merch-card:hover .site-merch-art img{transform:scale(1.018);filter:contrast(1.035)}
+.site-merch-index{
+  position:absolute;
+  top:12px;
+  right:12px;
+  padding:5px 7px;
+  background:rgba(3,5,6,.82);
+  border:1px solid rgba(108,248,255,.24);
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.16em;
+  color:var(--cyan);
+}
+.site-merch-info{padding:18px}
+.site-merch-type{
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.13em;
+  color:var(--cyan);
+  margin-bottom:8px;
+}
+.site-merch-info h3{
+  min-height:54px;
+  margin:0;
+  font-size:17px;
+  line-height:1.2;
+  text-transform:none;
+}
+.site-merch-bottom{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:12px;
+  margin-top:18px;
+  padding-top:15px;
+  border-top:1px solid var(--border);
+}
+.site-merch-bottom>span{
+  font-family:var(--mono);
+  font-size:11px;
+  letter-spacing:.1em;
+  color:var(--silver);
+}
+.site-merch-bottom a{
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.09em;
+  color:var(--cyan-bright);
+  text-transform:uppercase;
+}
+.site-merch-bottom a:hover{border-bottom:1px solid var(--cyan)}
+.shop-note{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:24px;
+  padding-top:17px;
+  border-top:1px solid var(--border);
+  font-family:var(--mono);
+  font-size:9px;
+  letter-spacing:.13em;
+  color:var(--dim);
+}
+.shop-note span:first-child{color:#c8ff00}
+
+@media(max-width:980px){
+  .site-merch-grid{grid-template-columns:repeat(2,1fr)}
+  .shop-preview-head{grid-template-columns:1fr;gap:28px}
+  .shop-manifesto{border-left:0;border-top:1px solid var(--border);padding:24px 0 0}
+}
+@media(max-width:680px){
+  .site-merch-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .site-merch-info{padding:14px}
+  .site-merch-info h3{font-size:15px;min-height:70px}
+  .site-merch-type{font-size:8px}
+  .shop-note{display:grid;grid-template-columns:1fr}
+}
+@media(max-width:430px){
+  .site-merch-grid{grid-template-columns:1fr}
+  .site-merch-info h3{min-height:0}
+}
+
 @media print{
   @page{size:Letter;margin:.42in .48in}
   *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
   html,body{background:#fff!important;color:#111!important;font-size:10pt!important}
   body{padding:0!important}
-  header,.epk-cta,.player,footer,.release-callout{display:none!important}
+  header,.epk-cta,.player,footer,.release-callout,.shop-preview{display:none!important}
   .wrap{max-width:none!important;padding:0!important}
   .epk-hero{padding:0 0 .18in!important;background:#fff!important;border-bottom:1px solid #777!important}
   .epk-logo{width:2.35in!important;height:.92in!important;margin:0 0 .06in!important}

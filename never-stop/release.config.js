@@ -47,16 +47,28 @@ window.IMNNT_RELEASE = {
 
   merch: [
     {
-      name: "NEVER STOP — OVERSIZED TEE",
-      price: "COMING SOON",
-      image: "../assets/releases/never-stop/merch-never-stop-placeholder.svg",
-      url: ""
+      name: "IMNNT NEVER STOP // Arctic White Tee",
+      price: "PRICE TBA",
+      image: "../assets/merch/arctic-white-tee-placeholder.svg",
+      url: "https://imnntmusic-shop.fourthwall.com"
     },
     {
-      name: "IMNNT — LOGO TEE",
-      price: "COMING SOON",
-      image: "../assets/releases/never-stop/merch-logo-placeholder.svg",
-      url: ""
+      name: "IMNNT NEVER STOP // Essential Tee",
+      price: "PRICE TBA",
+      image: "../assets/merch/essential-tee-placeholder.svg",
+      url: "https://imnntmusic-shop.fourthwall.com"
+    },
+    {
+      name: "IMNNT NEVER STOP // Electric Ice Zip Hoodie",
+      price: "PRICE TBA",
+      image: "../assets/merch/electric-ice-hoodie-placeholder.svg",
+      url: "https://imnntmusic-shop.fourthwall.com"
+    },
+    {
+      name: "IMNNT NEVER STOP // Monochrome Crewneck",
+      price: "PRICE TBA",
+      image: "../assets/merch/monochrome-crewneck-placeholder.svg",
+      url: "https://imnntmusic-shop.fourthwall.com"
     }
   ]
 };

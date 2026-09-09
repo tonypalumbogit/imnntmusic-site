@@ -83,3 +83,43 @@ h2{margin:0;font:700 clamp(36px,6vw,76px)/.95 var(--r-display);letter-spacing:-.
 @media (max-width:920px){.hero-grid{grid-template-columns:1fr;gap:48px}.cover-stage{justify-self:start;max-width:620px}.hero-copy h1{font-size:clamp(78px,19vw,150px)}.platform-grid{grid-template-columns:repeat(2,1fr)}.platform-card{border-bottom:1px solid var(--r-line)}.fact-grid{grid-template-columns:repeat(2,1fr)}.fact-grid div{border-bottom:1px solid var(--r-line)}.split-grid,.network-grid{grid-template-columns:1fr;gap:32px}.manifesto-copy{margin-top:0}.social-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:680px){.release-shell{width:min(100% - 28px,1180px)}.release-header{height:60px;padding:0 14px}.release-header nav{gap:13px}.release-header nav a:nth-child(2),.release-header nav a:nth-child(3){display:none}.brand img{width:92px;height:31px}.release-hero{padding:92px 0 42px;min-height:auto}.hero-grid{gap:34px}.signal-line{font-size:8px;letter-spacing:.1em}.micro{margin-top:26px}.hero-copy h1{font-size:clamp(70px,23vw,112px)}.hero-deck{font-size:14px}.hero-actions{display:grid;grid-template-columns:1fr}.cta{width:100%}.hero-data{gap:7px 11px}.hero-data span+span:before{margin-right:11px}.cover-index{display:none}.cover-frame{padding:8px}.scanline{left:8px;right:8px}.release-facts{overflow:auto}.fact-grid{min-width:610px;display:grid;grid-template-columns:repeat(5,1fr)}.fact-grid div{padding:17px 14px;border-bottom:0}.fact-grid div:first-child{padding-left:14px}.manifesto,.listen-section,.video-section,.merch-section,.network-section,.artist-links{padding:78px 0}.section-heading{display:block;margin-bottom:28px}.section-heading p{margin:16px 0 0}.platform-grid{grid-template-columns:1fr}.platform-card{min-height:106px;border-right:0}.video-shell{aspect-ratio:9/12}.video-placeholder{min-height:0}.merch-grid{grid-template-columns:1fr}.network-grid{gap:38px}.email-row{display:grid;grid-template-columns:1fr}.email-row input{border-right:1px solid #3a413a}.email-row button{min-height:52px}.social-grid{grid-template-columns:1fr}.footer-grid{display:block}.footer-links{margin-top:20px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.scanline,.signal-bars i{animation:none}.merch-image img,.cta{transition:none}}
+
+
+/* NEVER STOP / 001 — WEAR THE RELEASE */
+.wear-release{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:36px;
+  align-items:end;
+  margin-bottom:28px;
+  padding:26px 0;
+  border-top:1px solid rgba(199,255,50,.18);
+  border-bottom:1px solid rgba(199,255,50,.18);
+}
+.wear-kicker{
+  margin:8px 0 4px;
+  font:700 clamp(18px,2.2vw,28px) var(--r-display);
+  letter-spacing:.08em;
+  color:var(--r-acid);
+}
+.wear-release h2{margin:0}
+.wear-release p{
+  margin:.5rem 0 0;
+  font:500 11px var(--r-mono);
+  letter-spacing:.18em;
+  color:#d9e2e4;
+}
+.wear-action{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:16px;
+}
+.wear-action>span{
+  font:500 10px var(--r-mono);
+  letter-spacing:.16em;
+  color:#92f6fb;
+}
+@media(max-width:760px){
+  .wear-release{grid-template-columns:1fr;gap:20px}
+}

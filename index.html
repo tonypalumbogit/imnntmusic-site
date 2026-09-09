@@ -22,6 +22,7 @@
   <a class="logo" href="#top" aria-label="IMNNT home"><img src="assets/imnnt-logo.png" alt="IMNNT logo"></a>
   <nav aria-label="Main navigation"><ul>
     <li><a href="never-stop/">Never Stop</a></li>
+    <li><a class="js-store-link" href="https://imnntmusic-shop.fourthwall.com" target="_blank" rel="noopener">Shop</a></li>
     <li><a href="#mixes">Listen</a></li>
     <li><a href="#highlights">Highlights</a></li>
     <li><a href="#availability">Availability</a></li>
@@ -107,6 +108,34 @@
   </div>
 </section>
 
+
+<section class="shop-preview" id="shop" aria-labelledby="shop-title">
+  <div class="wrap">
+    <div class="shop-preview-head">
+      <div>
+        <div class="eyebrow">IMNNT MERCHANDISE / DROP 001</div>
+        <div class="shop-code">NEVER STOP / 001</div>
+        <h2 id="shop-title">APPAREL<br>COLLECTION</h2>
+      </div>
+      <div class="shop-manifesto">
+        <p>SOUND. MOVEMENT. NO LIMITS.</p>
+        <span>A release-linked apparel capsule built around black, white, electric ice and industrial IMNNT graphics.</span>
+        <a class="btn btn-shop js-store-link" href="https://imnntmusic-shop.fourthwall.com" target="_blank" rel="noopener">SHOP THE COLLECTION ↗</a>
+      </div>
+    </div>
+
+    <div class="site-merch-grid" id="homepage-merch-grid">
+      <!-- Product cards render from assets/merch.config.js -->
+    </div>
+
+    <div class="shop-note">
+      <span>NEVER STOP.</span>
+      <span>IMNNT / 001</span>
+      <span>CHECKOUT + FULFILLMENT BY FOURTHWALL</span>
+    </div>
+  </div>
+</section>
+
 <section class="availability" id="availability">
   <div class="wrap availability-grid">
     <div><div class="eyebrow">Booking Availability</div><h2>Ready to route.</h2><p class="lead">Weekend bookings are currently open across Texas, New Mexico and Mexico, with wider US and worldwide routing available by inquiry.</p>
@@ -148,6 +177,9 @@
 </main>
 
 <footer><div class="wrap footer-grid"><div class="copyright">© 2026 IMNNT · Worldwide bookings</div><div class="socials"><a href="https://www.mixcloud.com/imnntmusic/" target="_blank" rel="noopener">Mixcloud</a><a href="https://linktr.ee/IMNNT" target="_blank" rel="noopener">Linktree / All Links</a><a href="epk.html">EPK</a><a href="mailto:booking@imnntmusic.com">Booking Email</a></div></div></footer>
+
+<script src="assets/merch.config.js"></script>
+<script src="assets/merch.js" defer></script>
 
 <script>
 const form = document.getElementById('booking-form');
