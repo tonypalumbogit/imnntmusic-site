@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#040607"/><stop offset=".62" stop-color="#0A0E10"/><stop offset="1" stop-color="#030405"/>
+      </linearGradient>
+      <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#152126" stroke-width="1"/></pattern>
+    </defs>
+    <rect width="900" height="1125" fill="url(#bg)"/>
+    <rect width="900" height="1125" fill="url(#grid)" opacity=".62"/>
+    <path d="M0 102 L900 25" stroke="#00E7F2" stroke-width="2" opacity=".5"/>
+    <text x="55" y="82" fill="#00E7F2" font-family="monospace" font-size="18" letter-spacing="5">IMNNT / NEVER STOP / 001</text>
+    
+        <path d="M280 270 Q450 150 620 270 L700 395 L625 450 L580 390 L580 875 L320 875 L320 390 L275 450 L200 395 Z" fill="#111416" stroke="#31383C" stroke-width="4"/>
+        <path d="M355 280 Q450 190 545 280 Q535 360 450 390 Q365 360 355 280Z" fill="#090C0D" stroke="#31383C" stroke-width="4"/>
+        <path d="M450 390 L450 875" stroke="#31383C" stroke-width="3"/>
+        
+    <text x="450" y="545" text-anchor="middle" fill="#00E7F2" font-family="Arial" font-size="42" font-weight="800" letter-spacing="6">IMNNT</text>
+    <text x="450" y="590" text-anchor="middle" fill="#C8FF00" font-family="monospace" font-size="17" letter-spacing="4">NEVER STOP.</text>
+    <text x="55" y="1000" fill="#EDF2F3" font-family="Arial" font-size="28" font-weight="700">ELECTRIC ICE ZIP HOODIE</text>
+    <text x="55" y="1035" fill="#7D8B90" font-family="monospace" font-size="15" letter-spacing="3">APPAREL / ZIP HOODIE / ELECTRIC ICE</text>
+    <text x="55" y="1080" fill="#C8FF00" font-family="monospace" font-size="12" letter-spacing="3">PRODUCT IMAGE PLACEHOLDER</text>
+    </svg>
