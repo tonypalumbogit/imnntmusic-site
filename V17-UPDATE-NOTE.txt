@@ -1,0 +1,13 @@
+IMNNT WEBSITE V17
+
+Included:
+- V15 homepage CTA wording: EXPLORE RELEASE →
+- V16 Never Stop campaign artwork integration
+- Uploaded 1080x1920, ~15-second teaser video
+- Portrait 9:16 player on /never-stop/
+- No autoplay
+- Native video controls
+- COMING SOON remains; no release date added
+
+Video:
+assets/releases/never-stop/never-stop-teaser.mp4

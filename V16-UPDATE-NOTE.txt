@@ -1,0 +1,14 @@
+IMNNT WEBSITE V16 — NEVER STOP PRE-RELEASE CAMPAIGN ART
+
+Updated:
+- Homepage release CTA: EXPLORE RELEASE →
+- /never-stop/ now uses the supplied Never Stop campaign artwork.
+- Removed the visible placeholder artwork by replacing it with the real campaign image.
+- Release artwork is treated as a portrait campaign poster (not forced into a square crop).
+- Open Graph and X/Twitter sharing image now use the campaign artwork.
+- Status remains NEW SINGLE · COMING SOON.
+- No release date was invented or added.
+- Final DSP cover can be swapped later in never-stop/release.config.js without redesigning the page.
+
+Artwork file:
+assets/releases/never-stop/never-stop-campaign-art.png

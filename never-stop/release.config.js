@@ -16,10 +16,10 @@ window.IMNNT_RELEASE = {
   label: "IMNNT MUSIC",
   description: "Never Stop is the next chapter of IMNNT — a dark, high-energy electronic record built around relentless movement, tension and release.",
 
-  // Replace this placeholder when final artwork is ready.
-  coverArt: "../assets/releases/never-stop/cover-placeholder.svg",
-  coverAlt: "Never Stop by IMNNT — cover artwork",
-  socialArtwork: "https://www.imnntmusic.com/assets/releases/never-stop/social-share-placeholder.svg",
+  // Current pre-release campaign artwork. Replace later only if you create final DSP cover art.
+  coverArt: "../assets/releases/never-stop/never-stop-campaign-art.png",
+  coverAlt: "Never Stop by IMNNT — pre-release campaign artwork",
+  socialArtwork: "https://www.imnntmusic.com/assets/releases/never-stop/never-stop-campaign-art.png",
 
   // PRE-RELEASE
   preSaveUrl: "", // Paste distributor pre-save URL here.
@@ -33,7 +33,7 @@ window.IMNNT_RELEASE = {
   youtubeUrl: "",
 
   // Teaser / visualizer. YouTube/Vimeo URLs are supported automatically.
-  videoUrl: "",
+  videoUrl: "../assets/releases/never-stop/never-stop-teaser.mp4",
 
   // Social links. Blank values remain visibly disabled placeholders.
   socials: {
