@@ -1,0 +1,11 @@
+IMNNT WEBSITE V18 — VIDEO FIX
+
+Fixed:
+- The Never Stop teaser did not play because release.js only treated http/https URLs as valid.
+- The teaser is a local relative MP4 file, so the script never replaced the placeholder.
+- release.js now supports local/relative MP4 files and renders a native HTML5 video player.
+- The uploaded teaser remains no-autoplay with native controls.
+- Fixed the release stylesheet cache-buster to ?v=18.
+
+Video file:
+assets/releases/never-stop/never-stop-teaser.mp4

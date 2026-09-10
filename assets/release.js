@@ -8,6 +8,7 @@
 
   const isReleased = cfg.status === 'released';
   const hasUrl = (value) => typeof value === 'string' && /^https?:\/\//i.test(value.trim());
+  const hasMediaUrl = (value) => typeof value === 'string' && value.trim().length > 0 && !value.trim().startsWith('#');
   const setLink = (el, url) => {
     if (!el) return;
     if (hasUrl(url)) {
@@ -74,22 +75,34 @@
     spotifySlot.innerHTML = `<iframe title="${cfg.title} by ${cfg.artist} on Spotify" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" src="${cfg.spotifyEmbedUrl}"></iframe>`;
   }
 
-  // Video: embed YouTube/Vimeo, otherwise native video.
+  // Video: supports YouTube/Vimeo absolute URLs and local/relative MP4 files.
   const videoShell = $('#video-shell');
-  if (videoShell && hasUrl(cfg.videoUrl)) {
+  if (videoShell && hasMediaUrl(cfg.videoUrl)) {
     let markup = '';
-    try {
-      const u = new URL(cfg.videoUrl);
-      if (u.hostname.includes('youtube.com') || u.hostname.includes('youtu.be')) {
-        let id = u.hostname.includes('youtu.be') ? u.pathname.slice(1) : u.searchParams.get('v');
-        if (id) markup = `<iframe title="${cfg.title} teaser" loading="lazy" src="https://www.youtube-nocookie.com/embed/${id}?rel=0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-      } else if (u.hostname.includes('vimeo.com')) {
-        const id = u.pathname.split('/').filter(Boolean).pop();
-        if (id) markup = `<iframe title="${cfg.title} teaser" loading="lazy" src="https://player.vimeo.com/video/${id}" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>`;
-      } else {
-        markup = `<video controls preload="metadata" playsinline src="${cfg.videoUrl}" aria-label="${cfg.title} teaser"></video>`;
-      }
-    } catch (_) {}
+    const mediaUrl = cfg.videoUrl.trim();
+
+    if (/^https?:\/\//i.test(mediaUrl)) {
+      try {
+        const u = new URL(mediaUrl);
+        if (u.hostname.includes('youtube.com') || u.hostname.includes('youtu.be')) {
+          const id = u.hostname.includes('youtu.be') ? u.pathname.slice(1) : u.searchParams.get('v');
+          if (id) {
+            markup = `<iframe title="${cfg.title} teaser" loading="lazy" src="https://www.youtube-nocookie.com/embed/${id}?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+          }
+        } else if (u.hostname.includes('vimeo.com')) {
+          const id = u.pathname.split('/').filter(Boolean).pop();
+          if (id) {
+            markup = `<iframe title="${cfg.title} teaser" loading="lazy" src="https://player.vimeo.com/video/${id}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+          }
+        } else {
+          markup = `<video controls preload="metadata" playsinline aria-label="${cfg.title} teaser"><source src="${mediaUrl}" type="video/mp4">Your browser does not support HTML5 video.</video>`;
+        }
+      } catch (_) {}
+    } else {
+      // Local or relative file such as ../assets/releases/never-stop/never-stop-teaser.mp4
+      markup = `<video controls preload="metadata" playsinline aria-label="${cfg.title} teaser"><source src="${mediaUrl}" type="video/mp4">Your browser does not support HTML5 video.</video>`;
+    }
+
     if (markup) videoShell.innerHTML = markup;
   }
 
