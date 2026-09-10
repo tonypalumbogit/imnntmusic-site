@@ -1,0 +1,18 @@
+IMNNT WEBSITE V19 — DIRECT VIDEO EMBED FIX
+
+The Never Stop teaser is now embedded directly in /never-stop/index.html
+as a native HTML5 <video> element.
+
+Why:
+The previous page depended on JavaScript replacing a placeholder, and a cached
+older release.js could leave the page stuck on VIDEO LOADING.
+
+V19 fixes this by:
+- embedding the MP4 directly in the HTML
+- keeping no-autoplay behavior
+- showing native play controls
+- using the Never Stop campaign artwork as the poster image
+- renaming release.js to release-v19.js with cache busting
+
+Video:
+assets/releases/never-stop/never-stop-teaser.mp4
