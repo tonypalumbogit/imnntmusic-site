@@ -1,0 +1,2 @@
+V25: Updated the homepage hero genre line to use slash separators instead of periods.
+Bass House / UK Garage / Bassline / Bass / Club / Hard Dance / Hardcore / Dubstep / Melodic Bass
