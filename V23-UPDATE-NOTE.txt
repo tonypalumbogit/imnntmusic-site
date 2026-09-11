@@ -1,0 +1,19 @@
+IMNNT WEBSITE V23
+
+Added a homepage fan/newsletter CTA:
+
+JOIN THE IMNNT NETWORK
+
+Copy:
+New music. Early releases. Special events. Merch drops. IMNNT updates.
+
+Button:
+JOIN THE NETWORK →
+
+Destination:
+https://www.imnntmusic.com/join/
+
+The existing /join/ page remains connected to Formspree:
+https://formspree.io/f/mrpgdroe
+
+No other site sections were intentionally changed.

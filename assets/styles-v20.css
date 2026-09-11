@@ -518,3 +518,69 @@ section p{font-size:16px}
     min-height:54px;
   }
 }
+
+
+/* =========================================================
+   V23 — IMNNT NETWORK HOMEPAGE CTA
+   ========================================================= */
+.network-cta{
+  background:
+    radial-gradient(circle at 12% 20%,rgba(108,248,255,.045),transparent 28%),
+    linear-gradient(180deg,#05090b,#030506);
+  border-block:1px solid var(--border);
+}
+.network-panel{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:48px;
+  align-items:center;
+  padding:42px 0;
+}
+.network-copy h2{
+  margin:8px 0 12px;
+  font-size:clamp(38px,5vw,72px);
+  line-height:.95;
+}
+.network-copy p{
+  margin:0;
+  max-width:52ch;
+  color:var(--dim);
+  font-size:clamp(16px,1.35vw,20px);
+  line-height:1.65;
+}
+.network-action{
+  border-left:1px solid var(--border-bright);
+  padding-left:28px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:18px;
+}
+.network-action span{
+  font-family:var(--mono);
+  font-size:11px;
+  letter-spacing:.16em;
+  color:var(--cyan-bright);
+}
+.network-btn{
+  border:1px solid var(--cyan);
+  color:var(--cyan-bright);
+  background:transparent;
+  min-width:230px;
+}
+.network-btn:hover{
+  background:var(--cyan);
+  color:#020405;
+  box-shadow:0 0 24px rgba(108,248,255,.18);
+}
+@media(max-width:760px){
+  .network-panel{
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+  .network-action{
+    border-left:0;
+    border-top:1px solid var(--border);
+    padding:22px 0 0;
+  }
+}
