@@ -1,0 +1,11 @@
+IMNNT WEBSITE V28 — MERCH VISUAL UPDATE
+
+Updated the homepage merch section to:
+- Add the uploaded Never Stop tee + hoodie promotional image with the black / acid-lime background.
+- Remove the bright/white feel behind merch cards.
+- Give all product image areas a dark charcoal/black treatment so white apparel stays visible.
+- Keep the existing four-across merchandise layout where the current site supports it.
+- Preserve V27 artist messaging, V26 genres/Booking Facts, Never Stop, and Join the Network signup.
+
+New image asset:
+assets/merch/never-stop-merch-feature.png

@@ -1,0 +1,11 @@
+IMNNT WEBSITE V29 — WEB UPLOAD OPTIMIZATION
+
+Compressed:
+assets/releases/never-stop/never-stop-teaser.mp4
+
+Before: 22.0 MB
+After: 2.8 MB
+
+The teaser remains portrait video with audio and the same filename/path, so no website links needed to change.
+
+All V28 merch updates, V27 artist voice, genres, booking facts, Never Stop content, and Join the Network signup are retained.
