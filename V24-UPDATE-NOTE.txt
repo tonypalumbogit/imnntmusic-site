@@ -1,0 +1,13 @@
+IMNNT WEBSITE V24 — GENRE POSITIONING UPDATE
+
+Core genre order updated to:
+Bass House · UK Garage / Bassline · Bass / Club · Hard Dance / Hardcore · Dubstep · Melodic Bass
+
+Updated:
+- Homepage hero genre line
+- Homepage About copy
+- Homepage genre tags/chips
+- Booking Facts genre listing
+- EPK matching genre references where present
+
+V23 JOIN THE IMNNT NETWORK homepage CTA and existing Formspree join page are retained.
