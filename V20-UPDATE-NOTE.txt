@@ -1,0 +1,12 @@
+IMNNT WEBSITE V20 — HOMEPAGE READABILITY
+
+Changes:
+- Larger main navigation
+- SHOP is visually highlighted in cyan
+- Larger hero supporting text
+- Larger Never Stop release banner text
+- Larger primary CTA buttons
+- Responsive sizing retained for tablet/mobile
+
+No intentional changes to music, EPK, booking, merch content,
+Never Stop release-page content, footer, or anything below the footer.
