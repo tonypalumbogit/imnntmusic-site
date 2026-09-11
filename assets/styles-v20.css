@@ -671,3 +671,48 @@ section p{font-size:16px}
     aspect-ratio:4/3;
   }
 }
+
+
+/* =========================================================
+   V30 — HOMEPAGE MERCH CARD CORRECTION
+   Uses the actual acid/lime NEVER STOP promo visual in cards.
+   Arctic White Tee removed from homepage.
+   ========================================================= */
+.promo-product{
+  overflow:hidden;
+  background:#050706 !important;
+}
+.promo-product img{
+  width:100% !important;
+  height:100% !important;
+  min-height:310px;
+  object-fit:cover !important;
+  background:#050706 !important;
+  transform:scale(1.15);
+}
+.promo-product-tee img{
+  object-position:19% 50% !important;
+}
+.promo-product-hoodie img{
+  object-position:81% 50% !important;
+}
+
+/* Keep labels over the promo art readable */
+.promo-product .shop-final-code,
+.promo-product .shop-final-number{
+  z-index:3;
+  position:absolute;
+}
+.promo-product .shop-final-code{
+  text-shadow:0 1px 8px rgba(0,0,0,.9);
+}
+.promo-product .shop-final-number{
+  background:rgba(3,6,7,.76);
+  backdrop-filter:blur(4px);
+}
+
+@media(max-width:760px){
+  .promo-product img{
+    min-height:280px;
+  }
+}
