@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Join the IMNNT Network</title>
+  <meta name="description" content="Join the IMNNT network for new music, releases, merch drops and shows.">
+  <link rel="canonical" href="https://www.imnntmusic.com/join/">
+  <style>
+    :root{--bg:#030506;--panel:#070b0d;--text:#f4f5f2;--dim:#8d989c;--cyan:#6cf8ff;--acid:#c8ff32;--line:#20333a}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif}
+    body{min-height:100vh;display:grid;place-items:center;padding:24px}
+    .join{width:min(760px,100%);border:1px solid var(--line);background:linear-gradient(180deg,#081014,#040708);padding:clamp(28px,6vw,64px);position:relative;overflow:hidden}
+    .join:before{content:"IMNNT / NETWORK";position:absolute;right:-20px;top:12px;font:700 clamp(54px,11vw,110px) monospace;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:1px rgba(108,248,255,.06);pointer-events:none}
+    .kicker{font:700 12px monospace;letter-spacing:.18em;color:var(--cyan);margin-bottom:16px}
+    h1{margin:0 0 14px;font-size:clamp(42px,8vw,86px);line-height:.92;letter-spacing:.01em}
+    .tagline{margin:0 0 30px;color:var(--dim);font:500 15px monospace;letter-spacing:.12em}
+    form{display:grid;gap:12px;margin-top:24px}
+    label{font:700 11px monospace;letter-spacing:.14em;color:var(--cyan)}
+    input{width:100%;padding:16px 17px;border:1px solid var(--line);background:#020405;color:white;font-size:16px;outline:none}
+    input:focus{border-color:var(--cyan);box-shadow:0 0 0 2px rgba(108,248,255,.08)}
+    button{width:max-content;min-width:220px;padding:15px 20px;border:1px solid var(--acid);background:var(--acid);color:#030506;font:700 12px monospace;letter-spacing:.13em;cursor:pointer}
+    .fine{margin:12px 0 0;color:#68757a;font-size:12px;line-height:1.5}
+    .back{display:inline-block;margin-top:28px;color:var(--cyan);text-decoration:none;font:700 11px monospace;letter-spacing:.14em}
+  </style>
+</head>
+<body>
+  <main class="join">
+    <div class="kicker">IMNNT / NETWORK</div>
+    <h1>JOIN THE<br>IMNNT NETWORK</h1>
+    <p class="tagline">NEW MUSIC. RELEASES. SHOWS. NO NOISE.</p>
+
+    <form action="https://formspree.io/f/REPLACE_WITH_NETWORK_FORM_ID" method="POST">
+      <label for="email">EMAIL</label>
+      <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+      <input type="hidden" name="source" value="IMNNT Network Signup">
+      <button type="submit">JOIN THE NETWORK →</button>
+    </form>
+
+    <p class="fine">Occasional updates from IMNNT. New music, releases, merch drops and shows.</p>
+    <a class="back" href="/">← BACK TO IMNNTMUSIC.COM</a>
+  </main>
+</body>
+</html>

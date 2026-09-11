@@ -1,0 +1,57 @@
+FOURTHWALL HERO + EMAIL CAPTURE SETUP
+=====================================
+
+FOURTHWALL HERO TEXT
+--------------------
+Label:
+IMNNT / NEVER STOP / 001
+
+Headline:
+SOUND. MOVEMENT. NO LIMITS.
+
+Description:
+The first IMNNT apparel drop. Underground essentials built around the NEVER STOP release.
+
+Primary button:
+SHOP THE DROP
+
+Secondary button:
+JOIN THE IMNNT NETWORK
+
+HEADLINE WRAP
+-------------
+In Fourthwall, reduce the hero headline font size until:
+SOUND. MOVEMENT. NO LIMITS.
+stays together cleanly.
+
+EMAIL CAPTURE
+-------------
+Create a SEPARATE Formspree form for fan/newsletter signups.
+Do not reuse the booking form.
+
+Suggested form name:
+IMNNT Network Signup
+
+When Formspree gives you a URL such as:
+https://formspree.io/f/abcdwxyz
+
+Open:
+join/index.html
+
+Replace:
+REPLACE_WITH_NETWORK_FORM_ID
+
+with:
+abcdwxyz
+
+FOURTHWALL SECONDARY BUTTON
+----------------------------
+After deploying this website version, set the Fourthwall
+JOIN THE IMNNT NETWORK button URL to:
+
+https://www.imnntmusic.com/join/
+
+RESULT
+------
+SHOP THE DROP -> Fourthwall store
+JOIN THE IMNNT NETWORK -> imnntmusic.com/join/ -> Formspree email capture
